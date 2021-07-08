@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
 .flipcard {
@@ -15,12 +16,18 @@ body {
     display: flex;
     user-select: none;
     transition: 3s;
+    font-size: 1.3em;
 
 
+}
+.flip-constant {
+    display: flex;
+    user-select: none;
 }
 
 .left{
     padding: 2em 3em 2em 3em;
+
 }
 
 .display{

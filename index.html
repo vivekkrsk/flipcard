@@ -6,18 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="flipcard" id="flipcard">
-        <div class="left" id="decrement">
-            -
+        <div class="flip-constant">
+            <div onclick ="t = !t, y = !y" class="left" id="decrement">
+                -
+            </div>
+            <div class="display" id="display">
+                0
+            </div>
+            <div onclick="y = !y, t = !t" class="right" id="increment">
+                +
+            </div>
         </div>
-        <div class="display" id="display">
-            0
-        </div>
-        <div class="right" id="increment">
-            +
-        </div>
+        
     </div>
 </body>
 </html>
