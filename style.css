@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #3A86FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flipcard {
+    background-color: #FFBE0B;
+    display: flex;
+    user-select: none;
+    transition: 3s;
+
+
+}
+
+.left{
+    padding: 2em 3em 2em 3em;
+}
+
+.display{
+    padding: 2em 1em 2em 1em;
+}
+
+.right{
+    padding: 2em 3em 2em 3em;
+   
+}
